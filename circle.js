@@ -9,18 +9,19 @@ class Circle{
         console.log("The Radius of Circle is "+this.radius);
         console.log("The Color of the Circle is "+this.color);
     }
-    getRadius(){
-        console.log("The Radius of Circle is "+this.radius)
-    }
     setRadius(Radius){
         this.radius=Radius;
     }
-    getColor(){
-        console.log("The Color of the Circle is "+this.color);
+    getRadius(){
+        console.log("The Radius of Circle is "+this.radius)
     }
     setColor(Color){
         this.color=Color;
     }
+    getColor(){
+        console.log("The Color of the Circle is "+this.color);
+    }
+    
     getArea(){
         console.log('The Area of Circle is '+(Math.PI*(this.radius*this.radius)))
     }
